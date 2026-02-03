@@ -658,7 +658,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -672,21 +672,77 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
-            "id": "acffddf0-4c49-4459-a408-6693209774f0",
+            "id": "d15545fd-00bc-4c1a-806c-bae9297e7549",
             "source": {
-              "x": 600,
-              "y": 86
-            },
-            "target": {
               "cell": "e6741910-f5dd-4e87-a157-b2ecd24e68e4",
               "port": "83527dd3-13d8-4bc9-a9e1-5bbd3a8a3236"
             },
+            "target": {
+              "cell": "3f7e8ac2-6f4d-43b6-a5ec-8be9fab0a5da",
+              "port": "6c09d5af-91e6-4c80-980e-46ec326dcd2e"
+            },
             "vertices": [
               {
-                "x": 760,
-                "y": 130
+                "x": 730,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verify the privilege",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Verify the privilege"
+            ],
+            "id": "241fd87c-1add-417a-999f-124c2ac8c20a",
+            "source": {
+              "cell": "3f7e8ac2-6f4d-43b6-a5ec-8be9fab0a5da",
+              "port": "6ce3adcd-71db-4604-a83a-16a4eaac5a8f"
+            },
+            "target": {
+              "cell": "e6741910-f5dd-4e87-a157-b2ecd24e68e4",
+              "port": "307f7279-9eea-43e0-b236-fc10d64ca60e"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 40
+              },
+              {
+                "x": 770,
+                "y": 61
               }
             ]
           }

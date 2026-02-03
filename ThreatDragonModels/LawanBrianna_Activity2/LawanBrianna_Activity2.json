@@ -761,7 +761,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verified",
+              "name": "Success = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -775,7 +775,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verified"
+              "Success = 1"
             ],
             "id": "8d6c0d30-13d3-4255-a959-699badd8cbb8",
             "source": {
@@ -792,7 +792,17 @@
                 "y": 362
               }
             ],
-            "zIndex": 13
+            "zIndex": 13,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -813,7 +823,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verify the privilege",
+              "name": "Insert Query with Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -827,7 +837,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verify the privilege"
+              "Insert Query with Feedback Comments"
             ],
             "id": "f65728b3-8dc9-474a-b6af-9456aa38b7be",
             "source": {

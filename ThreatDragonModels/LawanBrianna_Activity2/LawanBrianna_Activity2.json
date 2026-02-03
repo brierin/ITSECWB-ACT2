@@ -809,19 +809,19 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "d7d0389c-817e-4ff9-b3e5-d1b68fe37268",
+            "id": "c1f03f76-ff56-413f-ab0a-64b967877b43",
             "source": {
-              "x": 500,
-              "y": 50
+              "x": 371,
+              "y": 120
             },
             "target": {
-              "x": 500,
-              "y": 400
+              "x": 750,
+              "y": 110
             },
             "vertices": [
               {
-                "x": 460,
-                "y": 120
+                "x": 570,
+                "y": 160
               }
             ]
           },
@@ -843,19 +843,19 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "c1f03f76-ff56-413f-ab0a-64b967877b43",
+            "id": "d7d0389c-817e-4ff9-b3e5-d1b68fe37268",
             "source": {
-              "x": 371,
-              "y": 120
+              "x": 500,
+              "y": 50
             },
             "target": {
-              "x": 750,
-              "y": 110
+              "x": 500,
+              "y": 400
             },
             "vertices": [
               {
-                "x": 570,
-                "y": 160
+                "x": 460,
+                "y": 120
               }
             ]
           },
@@ -985,15 +985,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
